@@ -1,70 +1,13 @@
-# Getting Started with Create React App
+#Mortal reviewer
+Inspiration
+In today's job market, possessing both technical and soft skills like communication, critical thinking, and problem-solving abilities is crucial for success. However, many job seekers struggle to showcase their soft skills during the interview process, and employers often lack effective tools to assess and train their employees in these areas. That's why the SoftSkillBoost, formerly Team InterviewerReviewer and Team Recruiter Skills, projects were born - to provide innovative and comprehensive tools to bridge this gap and help job seekers and employers succeed.
 
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
+What it does
+InterviewerReviewer is an AI-powered tool that simulates a natural feeling interview environment and evaluates interviewee's responses while providing constructive feedback. The tool assesses not just what candidates say, but also how they say it and how they respond to difficult questions. Additionally, InterviewerReviewer offers interview education resources to help candidates prepare and present their best selves during the interview process. The ultimate goal of InterviewerReviewer is to help job seekers improve their communication skills and increase their chances of success in landing their dream job.
 
-## Available Scripts
+Team Recruiter Skills is an educational tool that helps job seekers understand the mindset of an interviewer and improve their job search strategies. It provides a series of interactive modules that teach job seekers how to research job openings, tailor their resume and cover letter to specific job postings, prepare for interviews, and negotiate job offers. Team Recruiter Skills also offers resources for employers to assess and train their employees in these areas. The ultimate goal of Team Recruiter Skills is to help job seekers and employers understand each other's perspectives and succeed in the hiring process.
 
-In the project directory, you can run:
+#Stack
+InterviewerReviewer utilizes advanced technologies such as Cohere NLP API and Google Cloud speech-to-text to create a natural feeling interview environment that simulates real-life situations. Meanwhile, Team Recruiter Skills utilizes advanced technologies such as React and Firebase to provide a seamless user experience. Both projects were built with a user-centric approach, ensuring that the interfaces are easy to navigate and utilize.
 
-### `npm start`
 
-Runs the app in the development mode.\
-Open [http://localhost:3000](http://localhost:3000) to view it in your browser.
-
-The page will reload when you make changes.\
-You may also see any lint errors in the console.
-
-### `npm test`
-
-Launches the test runner in the interactive watch mode.\
-See the section about [running tests](https://facebook.github.io/create-react-app/docs/running-tests) for more information.
-
-### `npm run build`
-
-Builds the app for production to the `build` folder.\
-It correctly bundles React in production mode and optimizes the build for the best performance.
-
-The build is minified and the filenames include the hashes.\
-Your app is ready to be deployed!
-
-See the section about [deployment](https://facebook.github.io/create-react-app/docs/deployment) for more information.
-
-### `npm run eject`
-
-**Note: this is a one-way operation. Once you `eject`, you can't go back!**
-
-If you aren't satisfied with the build tool and configuration choices, you can `eject` at any time. This command will remove the single build dependency from your project.
-
-Instead, it will copy all the configuration files and the transitive dependencies (webpack, Babel, ESLint, etc) right into your project so you have full control over them. All of the commands except `eject` will still work, but they will point to the copied scripts so you can tweak them. At this point you're on your own.
-
-You don't have to ever use `eject`. The curated feature set is suitable for small and middle deployments, and you shouldn't feel obligated to use this feature. However we understand that this tool wouldn't be useful if you couldn't customize it when you are ready for it.
-
-## Learn More
-
-You can learn more in the [Create React App documentation](https://facebook.github.io/create-react-app/docs/getting-started).
-
-To learn React, check out the [React documentation](https://reactjs.org/).
-
-### Code Splitting
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/code-splitting](https://facebook.github.io/create-react-app/docs/code-splitting)
-
-### Analyzing the Bundle Size
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size](https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size)
-
-### Making a Progressive Web App
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app](https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app)
-
-### Advanced Configuration
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/advanced-configuration](https://facebook.github.io/create-react-app/docs/advanced-configuration)
-
-### Deployment
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/deployment](https://facebook.github.io/create-react-app/docs/deployment)
-
-### `npm run build` fails to minify
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify](https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify)
