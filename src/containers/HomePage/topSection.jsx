@@ -24,26 +24,24 @@ const TopSectionInnerContainer = styled.div`
 `;
 
 const Title = styled.h1`
-  margin: 0;
-  font-size: 3.5em;
   color: #ffffff;
   line-height: 1.7;
-  font-weight: 900;
+
   font-family: "Press Start 2P", cursive;
 `;
 
 const Description = styled.h6`
-  font-family: "Noto Sans", sans-serif;
+  font-family: "Montserrat", sans-serif;
   font-size: 20px;
-  font-weight: 400;
   opacity: 0.5;
   display: flex;
-  align-items: center;
+
   justify-content: center;
 `;
 
 const BeginBtn = styled.button`
   background-color: #ffd700;
+
   padding: 15px 30px 15px 30px;
   font-family: "Press Start 2P", cursive;
   font-size: 18px;
@@ -53,14 +51,9 @@ const BeginBtn = styled.button`
   &:hover {
     background-color: #ffff;
   }
-  color: black;
   &:focus {
     outline: none;
   }
-  display: flex;
-  align-items: center;
-  justify-content: center;
-  margin-top: 10px;
 `;
 export function TopSection(props) {
   const { children } = props;
@@ -70,15 +63,16 @@ export function TopSection(props) {
       <BackgroundFilter>
         {children}
         <TopSectionInnerContainer>
-          <Title>
+          <Title className="text-5xl font-black content-center ">
             Mortal Reviewer
             <>
               <br></br>
-              <Description>
+              <Description className="font-bold text-white ">
                 Find your next superstar employee, with way less effort! <br />{" "}
-                Use Mortal reviewer to and get started today
               </Description>
-              <BeginBtn>Begin</BeginBtn>
+              <BeginBtn className="content-center text-black">
+                Begin
+              </BeginBtn>
             </>
           </Title>
         </TopSectionInnerContainer>
