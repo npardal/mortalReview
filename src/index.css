@@ -10,6 +10,14 @@ body {
   -moz-osx-font-smoothing: grayscale;
 }
 
+.pixelName {
+  font-family: "Press Start 2P", cursive;
+}
+
+span {
+  font-family: "Montserrat", sans-serif;
+}
+
 * {
   box-sizing: border-box;
 }

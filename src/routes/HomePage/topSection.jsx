@@ -1,6 +1,8 @@
 import React from "react";
 import styled from "styled-components";
 import TopSectionBackground from "../../images/background2.gif";
+import { Link } from "react-router-dom";
+import { CustomerAccessPage } from "../CustomerAccessPage/CustomerAccessPage";
 
 const TopSectionContainer = styled.div`
   width: 100%;
@@ -70,7 +72,9 @@ export function TopSection(props) {
               <Description className="font-bold text-white ">
                 Find your next superstar employee, with way less effort! <br />{" "}
               </Description>
-              <BeginBtn className="content-center text-black">Begin</BeginBtn>
+              <Link to="/customer'">
+                <BeginBtn className="content-center text-black">Begin</BeginBtn>
+              </Link>
             </>
           </Title>
         </TopSectionInnerContainer>
