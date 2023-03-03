@@ -1,6 +1,6 @@
 import React from "react";
 import styled from "styled-components";
-import { BrandLogo } from "../brandLogo";
+import { BrandLogo } from "../index.jsx/BrandLogo";
 import { Button } from "../button";
 
 const NavBarContainer = styled.div`
@@ -9,6 +9,8 @@ const NavBarContainer = styled.div`
   display: flex;
   align-items: center;
   justify-content: space-between;
+
+
 `;
 
 const AnchorLink = styled.a`
@@ -31,6 +33,7 @@ const LinkContainers = styled.div`
 `;
 
 export function Navbar(props) {
+
   return (
     <NavBarContainer>
       <BrandLogo />

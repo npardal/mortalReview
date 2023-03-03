@@ -70,9 +70,7 @@ export function TopSection(props) {
               <Description className="font-bold text-white ">
                 Find your next superstar employee, with way less effort! <br />{" "}
               </Description>
-              <BeginBtn className="content-center text-black">
-                Begin
-              </BeginBtn>
+              <BeginBtn className="content-center text-black">Begin</BeginBtn>
             </>
           </Title>
         </TopSectionInnerContainer>
