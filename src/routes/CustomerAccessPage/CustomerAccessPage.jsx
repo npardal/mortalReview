@@ -4,6 +4,8 @@ import {
   PageContainer,
 } from "../../components/pageContainer";
 import { Tabs, Card } from "flowbite-react";
+import { Candidate } from "../../components/candidate";
+import { Tabbed } from "../../components/tabbed";
 
 export function CustomerAccessPage(props) {
   return (
@@ -135,7 +137,8 @@ export function CustomerAccessPage(props) {
             </Tabs.Item>
           </Tabs.Group>
         </Card>
-
+        <Candidate></Candidate>
+        <Tabbed> </Tabbed>
         <h1>hello!</h1>
       </InnerPageContainer>
     </PageContainer>

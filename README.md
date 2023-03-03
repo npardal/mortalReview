@@ -1,3 +1,7 @@
+
+
+
+
 #Mortal reviewer
 Inspiration
 In today's job market, possessing both technical and soft skills like communication, critical thinking, and problem-solving abilities is crucial for success. However, many job seekers struggle to showcase their soft skills during the interview process, and employers often lack effective tools to assess and train their employees in these areas. That's why the SoftSkillBoost, formerly Team InterviewerReviewer and Team Recruiter Skills, projects were born - to provide innovative and comprehensive tools to bridge this gap and help job seekers and employers succeed.
